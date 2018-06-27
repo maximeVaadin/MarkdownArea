@@ -1,6 +1,6 @@
 # Markdown Area
 
-Vaadin 10 Java integration of https://github.com/PolymerElements/paper-slider
+A simple Vaadin TextArea where the user can preview his text when using the markdown syntax. 
 
 ## Development instructions
 
