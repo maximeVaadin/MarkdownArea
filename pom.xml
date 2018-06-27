@@ -7,7 +7,7 @@
     <artifactId>markdown-area</artifactId>
     <version>1.0.0</version>
     <name>Markdown Area</name>
-    <description>Integration of paper-slider for Vaadin 10</description>
+    <description>A simple TextArea to preview the markdown syntax</description>
 
     <properties>
         <vaadin.version>10.0.1</vaadin.version>
