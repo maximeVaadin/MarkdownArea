@@ -16,7 +16,7 @@ import com.vladsch.flexmark.parser.Parser;
 public class MarkdownArea extends Composite<Div> {
 
 	private TextArea input = new TextArea();
-	private Link link = new Link("Markdown","markdown-guide");
+	private Link link = new Link("Markdown","https://vaadin.com/markdown-guide");
 	private Label label = new Label(" supported");
 	private Div writeView = new Div(input, link, label);
 	private Div previewView = new Div();
@@ -79,6 +79,8 @@ public class MarkdownArea extends Composite<Div> {
 	public TextArea getInput() {
 		return input;
 	}
+
+	public void setMarkdownLink (String markdownLink) {link.setHref(markdownLink);}
 
 }
 
