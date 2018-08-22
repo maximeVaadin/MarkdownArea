@@ -5,7 +5,7 @@
 
     <groupId>org.vaadin.maxime</groupId>
     <artifactId>markdown-area</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.2</version>
     <name>Markdown Area</name>
     <description>A simple TextArea to preview the markdown syntax</description>
 
