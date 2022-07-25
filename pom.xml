@@ -5,7 +5,7 @@
 
     <groupId>org.vaadin.maxime</groupId>
     <artifactId>markdown-area</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <name>Markdown Area</name>
     <description>A simple TextArea to preview the markdown syntax</description>
 
@@ -52,12 +52,6 @@
         <repository>
             <id>Vaadin prereleases</id>
             <url>http://maven.vaadin.com/vaadin-prereleases</url>
-        </repository>
-        <!-- The bintray repository contain webjars immediately after generation. If the webjar is available
-             in Maven central, you do not need this repository -->
-        <repository>
-            <id>webjars</id>
-            <url>https://dl.bintray.com/webjars/maven</url>
         </repository>
     </repositories>
 
